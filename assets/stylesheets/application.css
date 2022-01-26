@@ -1,10 +1,132 @@
-body {
-  font-family: Helvetica;
+:root {
+  --bodyBG: rgb(210, 222, 224);
+  --diagram: rgb(246, 251, 252);
+  --diagramHover: rgb(235, 242, 243);
+  --infoWindow: rgb(75, 108, 117);
+  --infoWindowBG: rgb(210, 222, 224);
 }
 
-#root {
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bodyBG);
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.diagram-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+#phase-diagram {
+  position: relative;
+  top: -25px;
+  height: 644px;
+  width: 800px;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#svg-outlines,
+#svg-annotations,
+#svg-axes,
+#diagram-deco {
+  pointer-events: none;
+}
+
+#svg-axes {
+  background-color: var(--bodyBG);;
+  position: absolute;
+  top: 0;
+  left: -60px;
+  height: 704px;
+  width: 860px;
+}
+
+#diagram-deco {
+  background-color: var(--bodyBG);;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 714px;
+  width: 870px;
+}
+
+.areas {
+  fill: var(--diagram);
+}
+
+.areas path:hover {
+  fill: var(--diagramHover);
+}
+
+#info-window {
+  height: 100vh;
+  border-left: 8px solid var(--infoWindow);
+  width: 30%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--infoWindowBG);
+}
+
+#dynamic-info {
+  flex-grow: 1;
+  color: var(--infoWindow);
+}
+
+#dynamic-info p {
+  text-align: justify;
+}
+
+.copyrights {
+  border: 2px solid var(--infoWindow);
+  width: 100%;
+  text-align: center;
+  color: var(--infoWindow);
+  margin-top: 20px;
+  background: var(--bodyBG);
+}
+
+.copyrights p {
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: var(--infoWindow);
+  padding-bottom: 18px;
+  border-bottom: 2px solid var(--infoWindow);
+}
+
+.copyrights a {
+  color: var(--infoWindow);
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.copyrights a:hover {
+  opacity: 1;
 }
