@@ -1,5 +1,6 @@
 {
-  "license": "UNLICENSED",
+  "homepage": "https://mallorywittwer.github.io/FeC-phase-diagram-react",
+  "name": "phase-diagram-react",
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.6",
@@ -27,11 +28,26 @@
   "dependencies": {
     "d3": "^7.3.0",
     "react": "16.2",
-    "react-dom": "16.2"
+    "react-dom": "16.2",
+    "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "lint": "eslint './src/**/*.js*'",
-    "deploy": "webpack -p && gh-pages -d dist"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
