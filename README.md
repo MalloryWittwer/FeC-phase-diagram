@@ -1,19 +1,3 @@
-## Interactive phase diagram (work in progress).
+![FeC-phase-diagram-react](https://github.com/MalloryWittwer/FeC-phase-diagram-react/blob/master/assets/screenshot.png?raw=true)
 
-To start the local Webpack Dev Server (usually on port `8080`):
-
-```bash
-yarn start
-```
-
-To lint all JavaScript files in the `src` folder:
-
-```bash
-yarn lint
-```
-
-To build and deploy your app to `gh-pages` branch on the GitHub repo:
-
-```bash
-yarn deploy
-```
+An web-based phase diagram of the iron-carbon system. Hover over phase domains to view more information about them!
