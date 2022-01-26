@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FeC-phase-diagram-react/static/css/main.fa3f037f.css",
+    "main.js": "/FeC-phase-diagram-react/static/js/main.36b5c9a8.js",
+    "index.html": "/FeC-phase-diagram-react/index.html",
+    "main.fa3f037f.css.map": "/FeC-phase-diagram-react/static/css/main.fa3f037f.css.map",
+    "main.36b5c9a8.js.map": "/FeC-phase-diagram-react/static/js/main.36b5c9a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa3f037f.css",
+    "static/js/main.36b5c9a8.js"
+  ]
+}
