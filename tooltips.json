@@ -1,0 +1,72 @@
+[
+  {
+    "id": "liquid",
+    "title": "Liquid",
+    "description": "The melting point of pure iron is 1538°C. The eutectic point temperature at around 4.3wt% carbon is 1147°C. Cast irons with carbon content above 4.3wt% are called hypereutectic, whereas cast irons with 2.11-4.3wt% carbon are called hypoeutectic."
+  },
+  {
+    "id": "ferrite",
+    "title": "Ferrite",
+    "description": "Below 912°C, iron has a BCC crystal structure. The ferrite phase (α-Fe) is fairly ductile, and magnetic."
+  },
+  {
+    "id": "delta",
+    "title": "Delta",
+    "description": "Above 1394°C, iron changes back to a BCC phase: delta iron (δ-Fe)."
+  },
+  {
+    "id": "austenite-ferrite",
+    "title": "Austenite + Ferrite",
+    "description": ""
+  },
+  {
+    "id": "pearlite-ferrite",
+    "title": "Pearlite + Ferrite",
+    "description": "Pearlite has a characterisitc lamellar structure made of alternating layers of ferrite and cementite. It forms during slow cooling of the alloy through the eutectoid reaction occuring below 723 °C."
+  },
+  {
+    "id": "pearlite-cementite",
+    "title": "Pearlite + Cementite",
+    "description": "White cast irons are generally hard and brittle due to the presence of cementite, and have excellent flowability."
+  },
+  {
+    "id": "liquid-cementite",
+    "title": "Liquid + Cementite",
+    "description": "Cementite (Fe<sub>3</sub>C) precipitates from the liquid upon cooling."
+  },
+  {
+    "id": "liquid-austenite",
+    "title": "Liquid + Austenite",
+    "description": "Austenite (γ-Fe) precipitates from the liquid upon cooling."
+  },
+  {
+    "id": "delta-liquid",
+    "title": "Delta + Liquid",
+    "description": "Delta (δ-Fe) precipitates from the liquid upon cooling."
+  },
+  {
+    "id": "delta-gamma",
+    "title": "Delta + Austenite",
+    "description": ""
+  },
+  {
+    "id": "cementite-ledeburite",
+    "title": "Cementite + Ledeburite",
+    "description": "Cementite (Fe<sub>3</sub>C) is an iron carbide with orthorombic crystal structure. It is hard, brittle, and ferromagnetic. It is also metastable; under very slow cooling, or by maintaining the alloy above 723°C during a heat treatment, cementite can decompose into ferrite and graphite."
+  },
+  {
+    "id": "austenite-cementite-ledeburite",
+    "title": "Austenite + Cementite + Ledeburite",
+    "description": "Ledeburite is the eutectic phase of iron forming at 4.3wt% of carbon. It may occur as a separate constituent in high-carbon steels."
+  },
+  {
+    "id": "cementite-pearlite-ledeburite",
+    "title": "Cementite + Pearlite + Ledeburite",
+    "description": "In gray cast irons, carbon is found in the form of graphite - which gives the material a characteristic gray colour."
+  },
+  {
+    "id": "austenite",
+    "title": "Austenite",
+    "description": "Austenite (γ-Fe) exists above the critical eutectoid temperature of 727°C. It is non-magnetic, with an FCC crystal structure. Adding nickel to steel, in particular, stabilizes austenite so that it can be used at room temperature, for example in stainless steel."
+  }
+]
