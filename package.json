@@ -32,8 +32,7 @@
     "react-scripts": "5.0.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development",
-    "lint": "eslint './src/**/*.js*'",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"

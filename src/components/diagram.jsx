@@ -13,9 +13,14 @@ const y = d3.scaleLinear().domain([0, maxTemperature]).range([height, 0]);
 class PhaseDiagram extends Component {
   handleGotClicked(area) {
     const infoWindow = document.getElementById("dynamic-info");
-    fetch(`public/infos/${area.id}.html`)
-      .then((response) => response.text())
-      .then((html) => (infoWindow.innerHTML = html))
+    fetch(process.env.PUBLIC_URL + "/tooltips.json")
+      .then((response) => response.json())
+      .then((data) => {
+        const areaData = data.filter((x) => x.id === area.id)[0];
+        const { title, description } = areaData;
+        document.getElementById("info-title").innerHTML = title;
+        document.getElementById("info-description").innerHTML = description;
+      })
       .catch((err) => console.warn("Something went wrong.", err));
   }
 
