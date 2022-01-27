@@ -27,7 +27,7 @@ class App extends Component {
               description={this.state.description}
             />
             <div className="copyrights">
-              <p>&copy; Mallory Wittwer, 2022</p>
+              <p>By Mallory Wittwer, 2022</p>
               <a
                 href="https://github.com/MalloryWittwer/FeC-phase-diagram"
                 target="_blank"
