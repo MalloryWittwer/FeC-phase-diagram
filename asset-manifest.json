@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/FeC-phase-diagram-react/static/css/main.a1aad9a7.css",
-    "main.js": "/FeC-phase-diagram-react/static/js/main.6bf5ab33.js",
-    "index.html": "/FeC-phase-diagram-react/index.html",
-    "main.a1aad9a7.css.map": "/FeC-phase-diagram-react/static/css/main.a1aad9a7.css.map",
-    "main.6bf5ab33.js.map": "/FeC-phase-diagram-react/static/js/main.6bf5ab33.js.map"
+    "main.css": "/FeC-phase-diagram/static/css/main.a1aad9a7.css",
+    "main.js": "/FeC-phase-diagram/static/js/main.eb147c8b.js",
+    "index.html": "/FeC-phase-diagram/index.html",
+    "main.a1aad9a7.css.map": "/FeC-phase-diagram/static/css/main.a1aad9a7.css.map",
+    "main.eb147c8b.js.map": "/FeC-phase-diagram/static/js/main.eb147c8b.js.map"
   },
   "entrypoints": [
     "static/css/main.a1aad9a7.css",
-    "static/js/main.6bf5ab33.js"
+    "static/js/main.eb147c8b.js"
   ]
 }
